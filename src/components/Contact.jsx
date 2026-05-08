@@ -35,7 +35,7 @@ const Contact = () => {
   return (
     <div 
         id='contact' 
-        className='bgimg bg-background text-text w-full flex flex-col items-center justify-center p-3 md:p-8 lg:p-10'
+        className='w-full flex flex-col items-center justify-center p-3 md:p-8 lg:p-10'
     >
         {/* Header */}
         <div 
@@ -58,7 +58,7 @@ const Contact = () => {
                         type='text'
                         placeholder='Your Name'
                         required
-                        className='w-full text-sm md:text-md px-2 md:px-4 py-3 border-2 border-text/80 placeholder:text-text/80 font-medium rounded-xl transition-all duration-300 focus:outline-none focus:border-blue-400'
+                        className='bg-background/95 w-full text-sm md:text-md px-2 md:px-4 py-3 border-2 border-text/80 placeholder:text-text/80 font-medium rounded-xl transition-all duration-300 focus:outline-none focus:border-blue-400'
                     />
                 </div>
                 <div>
@@ -67,7 +67,7 @@ const Contact = () => {
                         type='email'
                         placeholder='Email'
                         required
-                        className='w-full text-sm md:text-md px-2 md:px-4 py-3 border-2 border-text/80 placeholder:text-text/80 font-medium rounded-xl transition-all duration-300 focus:outline-none focus:border-blue-400'
+                        className='bg-background/95 w-full text-sm md:text-md px-2 md:px-4 py-3 border-2 border-text/80 placeholder:text-text/80 font-medium rounded-xl transition-all duration-300 focus:outline-none focus:border-blue-400'
                     />
                 </div>
                 <div>
@@ -76,7 +76,7 @@ const Contact = () => {
                         type='text'
                         placeholder='Subject'
                         required
-                        className='w-full text-sm md:text-md px-2 md:px-4 py-3 border-2 border-text/80 placeholder:text-text/80 font-medium rounded-xl transition-all duration-300 focus:outline-none focus:border-blue-400'
+                        className='bg-background/95 w-full text-sm md:text-md px-2 md:px-4 py-3 border-2 border-text/80 placeholder:text-text/80 font-medium rounded-xl transition-all duration-300 focus:outline-none focus:border-blue-400'
                     />
                 </div>
                 <div>
@@ -86,7 +86,7 @@ const Contact = () => {
                         placeholder='Message'
                         rows={5}
                         required
-                        className='w-full text-sm md:text-md px-2 md:px-4 py-3 border-2 border-text/80 placeholder:text-text/80 font-medium rounded-xl transition-all duration-300 focus:outline-none focus:border-blue-400'
+                        className='bg-background/95 w-full text-sm md:text-md px-2 md:px-4 py-3 border-2 border-text/80 placeholder:text-text/80 font-medium rounded-xl transition-all duration-300 focus:outline-none focus:border-blue-400'
                     />
                 </div>
                 <button 

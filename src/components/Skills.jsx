@@ -1,12 +1,12 @@
 import React from 'react'
 
 const Skills = () => {
-    const skills = [ 'HTML5', 'CSS3', 'JavaScript', 'React.js', 'TailwindCSS', 'Git', 'GitHub', 'Vite', 'Figma', ];
+    const skills = [ 'HTML5', 'CSS3', 'JavaScript', 'React.js', 'TailwindCSS', 'Git', 'GitHub', 'Vite', 'Figma', 'Motion',  ];
 
   return (
     <div 
         id='skills' 
-        className='bgimg bg-background text-text w-full flex flex-col items-center justify-center p-3 md:p-8 lg:p-10'
+        className='w-full flex flex-col items-center justify-center p-3 md:p-8 lg:p-10'
     >
 
         {/* Header */}

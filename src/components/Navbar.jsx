@@ -86,7 +86,7 @@ const Navbar = () => {
                         {
                             isMobileMenuOpen ? (
                                 <div>
-                                    <FaX size={24} />
+                                    <FaX size={16} />
                                 </div>
                             ) : (
                                 <div>

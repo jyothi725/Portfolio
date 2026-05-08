@@ -1,12 +1,14 @@
 import React from 'react'
 import { FaEnvelope, FaFileAlt, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
+
 const Hero = () => {
   return (
     <div 
       id='home' 
-      className='bgimg min-w-full min-h-screen flex flex-col-reverse md:flex-row justify-around items-center mt-5 p-6 md:p-8 lg:p-10 bg-background text-text'
+      className='min-w-full min-h-screen flex flex-col-reverse md:flex-row justify-around items-center mt-5 p-6 md:p-8 lg:p-10'
     >
+
       {/* Intro */}
       <div className='flex flex-1 flex-col gap-2 items-center justify-center text-center'>
         <p className='font-semibold text-sm lg:text-xl'>Hello! I'm</p>

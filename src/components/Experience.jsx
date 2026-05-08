@@ -23,7 +23,7 @@ const Experience = () => {
   return (
     <div 
         id='experience' 
-        className='bgimg bg-background text-text w-full flex flex-col items-center justify-center p-5 md:p-8 lg:p-10'
+        className='w-full flex flex-col items-center justify-center p-5 md:p-8 lg:p-10'
     >
         {/* Header */}
         <div 
@@ -49,7 +49,7 @@ const Experience = () => {
                             <div key={index} className='relative pl-5'>
                                 <h1 className='text-2xl lg:text-4xl font-bold pb-1 lg:pb-3 text-primary/80'>{job.title}</h1>
                                 <h3 className='text-lg lg:text-2xl font-semibold py-1 lg:py-3'>{job.company}</h3>
-                                <div className='flex flex-col lg:flex-row gap-1 lg:gap-3 justify-start lg:justify-center'>
+                                <div className='flex flex-col lg:flex-row gap-1 lg:gap-3'>
                                     <div className='flex gap-2 items-center justify-start lg:justify-center text-sm lg:text-lg text-text/80'>
                                         <FaRegCalendar />
                                         <span>{job.period}</span>

@@ -36,7 +36,7 @@ const Projects = () => {
   return (
     <div 
         id='projects' 
-        className='bgimg w-full bg-background text-text flex flex-col items-center justify-center px-6 pt-4 md:p-8 lg:p-10'
+        className='w-full flex flex-col items-center justify-center px-6 pt-4 md:p-8 lg:p-10'
     >
         {/* Header */}
         <div 

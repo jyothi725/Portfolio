@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div 
         id='about' 
-        className='bgimg bg-background text-text w-full flex flex-col items-center justify-center p-6 md:p-8 lg:p-10'
+        className='w-full flex flex-col items-center justify-center p-6 md:p-8 lg:p-10'
     >
         {/* Header */}
         <div 
