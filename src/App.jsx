@@ -29,7 +29,7 @@ function App() {
         <div className={`fixed inset-0 z-0 pointer-events-none hidden md:block ${theme === 'dark' ? 'opacity-100' : 'opacity-0'}`}>
           <Particles
             particleColors={["#ffffff"]}
-            particleCount={200}
+            particleCount={400}
             particleSpread={10}
             speed={0.1}
             particleBaseSize={100}

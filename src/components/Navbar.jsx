@@ -30,12 +30,12 @@ const Navbar = () => {
     return (
     <nav 
         id='navbar' 
-        className='w-full bg-background text-text px-1 md:px-8 lg:px-10 py-3 shadow-xl shadow-text/10 fixed top-0 left-0 z-10'
+        className='w-full bg-background text-text px-1 md:px-4 py-3 shadow-xl shadow-text/10 fixed top-0 left-0 z-10'
     >
-        <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+        <div className='max-w-full mx-auto px-4 md:px-6'>
             <div className='flex justify-between items-center'>
                 {/* Logo */}
-                <div className='font-bold text-primary text-xl md:text-3xl lg:text-5xl flex items-center justify-between'
+                <div className='font-bold bg-linear-to-r from-blue-500 via-purple-500 to-pink-600 bg-clip-text text-transparent text-xl md:text-3xl lg:text-5xl flex items-center justify-between'
                 >
                     JYOTHI KHATI
                 </div>

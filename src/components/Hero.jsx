@@ -21,7 +21,7 @@ const Hero = () => {
             href="https://drive.google.com/file/d/1i-NQoEGXB3qdmxqPVii9sK4CcJ099dfi/view?usp=drive_link" 
             target="_blank" 
             rel="noopener noreferrer"
-            className='px-4 py-2 md:px-6 md:py-3 lg:px-8 lg-py-4 bg-primary text-white rounded-2xl font-semibold text-sm md:text-md lg:text-lg flex items-center justify-center gap-2 hover:scale-105 transition ease-in-out duration-200'
+            className='px-4 py-2 md:px-6 md:py-3 lg:px-8 lg-py-4 bg-primary text-text rounded-2xl font-semibold text-sm md:text-md lg:text-lg flex items-center justify-center gap-2 hover:scale-105 transition ease-in-out duration-200'
           >
             <FaFileAlt />
             View Resume
